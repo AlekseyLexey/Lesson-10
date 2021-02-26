@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 10</title>
+</head>
+<body>
+	<!-- Header start -->
+	<header class="header">
+		<div class="container">
+			<nav class="header__menu menu-header">
+				<ul class="menu-header__list">
+					<li>
+						<a href="#" class="menu-header__link">about us</a>
+						<ul class="menu-header__sub-list">
+							<li>
+								<a href="#" class="menu-header__sub-link">true</a>
+							</li>
+							<li>
+								<a href="#" class="menu-header__sub-link">false</a>
+							</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#" class="menu-header__link">pomegranade</a>
+					</li>
+					<li>
+						<a href="#" class="menu-header__link">you</a>
+						<ul class="menu-header__sub-list">
+							<li>
+								<a href="#" class="menu-header__sub-link">true</a>
+								<ul class="menu-header__sub-sublist">
+									<li><a href="#" class="menu-header__sub-sublink">yes</a></li>
+									<li><a href="#" class="menu-header__sub-sublink">no</a></li>
+									<li><a href="#" class="menu-header__sub-sublink">may be</a></li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" class="menu-header__sub-link">false</a>
+							</li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+
+			<form action="#" class="header__search search-form">
+				<div class="search-form__line">
+					<div class="search-form__input">
+						<input class="input__search" placeholder="Search query" name="#" type="text">
+					</div>
+				</div>
+			</form>
+
+			<form action="#" class="header__login login-form">
+				<div class="login-form__line">
+					<div class="login-form__input">
+						<input id="userlogin" class="input__login" placeholder="Your email" name="useremail" type="email">
+						<label for="userlogin" class="label__login">email</label>
+					</div>
+					<div class="login-form__input">
+						<input id="userpass" class="input__login" placeholder="Your password" name="userpassword" type="password">
+						<label for="userpass" class="label__login">password</label>
+					</div>
+				</div>
+				<div class="login-form__line">
+					<div class="login-form__input login-form__input_row">
+						<div class="login-form__checkbox">
+							<input id="rememberme" class="checkbox__input-login" checked value="yes" name="rememberme" type="checkbox">
+							<label for="rememberme" class="checkbox__label-login">remember me</label>
+						</div>
+					</div>
+					<div class="login-form__input login-form__input_row">
+						<button class="button" type="submit">enter</button>
+					</div>
+				</div>
+			</form>
+		</div>
+	</header>
+	<!-- Header end -->
+
+	<!-- Main start -->
+	<main class="main">
+		<!-- Page start -->
+		<div class="page">
+			<div class="container">
+				<div class="page__registration">
+
+					<div class="page__title title-page">
+						<h2 class="title-page__title">Регистрация</h2>
+					</div>
+
+					<form action="#" class="form">
+						<div class="form__line">
+							<div class="form__input">
+								<input type="text" placeholder="Имя*" class="input">
+							</div>
+							<div class="form__input">
+								<input type="text" placeholder="Фамилия*" class="input">
+							</div>
+							<div class="form__input">
+								<input type="text" placeholder="Логин*" class="input">
+							</div>
+							<div class="form__input">
+								<input type="email" placeholder="EMail*" class="input">
+							</div>
+							<div class="form__input">
+								<input type="password" placeholder="Пароль*" class="input">
+							</div>
+							<div class="form__input">
+								<input type="password" placeholder="Повторите пароль*" class="input">
+							</div>
+						</div>
+						<div class="form__line">
+							<div class="form__input">
+								<div class="form__row">
+									<div class="form__box">
+										<input type="radio" id="male" value="man" name="sex" class="checkbox__input">
+										<label for="male" class="checkbox__label">Мужчина</label>
+									</div>
+								</div>
+								<div class="form__row">
+									<div class="form__box">
+										<input type="radio" id="female" value="woman" name="sex" class="checkbox__input">
+										<label for="female" class="checkbox__label">Женщина</label>
+									</div>
+								</div>
+							</div>
+							<div class="form__input">
+								<div class="form__row">
+									<div class="form__box">
+										<input type="checkbox" class="checkbox__input" value="agree" name="consent" id="agree">
+										<label for="agree" class="checkbox__label">Я согласен с <a href="#" class="form__link-regulations">Условия и правила</a></label>
+									</div>
+								</div>
+							</div>
+							<div class="form__input">
+								<button class="button-registration" type="submit">Регистрация</button>
+							</div>
+						</div>
+					</form>
+
+					<div class="page__subform">
+						<p>У вас есть аккаунт?</p>
+						<a href="#">Войти</a>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!-- Page end -->
+	</main>
+	<!-- Main end -->
+</body>
+</html>
